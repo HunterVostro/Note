@@ -1,0 +1,8 @@
+/* pages/main/main.wxss */
+.content-btn-group{
+    padding: 10px;
+  }
+
+.skip {
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+<!--pages/main/main.wxml-->
+<view class="content-btn-group">
+
+    <button class="skip" type="primary" bindtap='dongShao'>dongShao</button>
+
+    <button class="skip" type="primary" bindtap='hunterVein'>hunterVein</button>
+
+    <button class="skip" type="primary" bindtap='wangJiangjun'>wangJiangjun</button>
+
+</view>
