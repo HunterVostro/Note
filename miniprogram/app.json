@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/main/main", 
+    "pages/main/main0", 
+    "pages/main/main",
     "pages/index/index",
     "pages/example/index",
     "pages/Learning/dongShao",

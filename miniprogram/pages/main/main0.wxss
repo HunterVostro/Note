@@ -1,0 +1,49 @@
+.dec {
+    display: flex;
+    flex-direction: column;  /* 垂直排列 */
+    justify-content: center; /* 垂直居中 */
+    align-items: center;    /* 水平居中 */
+    height: 800px;
+    border: 1px solid #ccc;
+    transition: background-color 1s ease;/* 平滑过渡 */
+  }
+  
+  image {
+    width: 350px;  /* 控制图片宽度 */
+    height: auto;  /* 高度自适应 */
+    margin-bottom: 20px; /* 图片和文字的间距 */
+  }
+  
+  .tt {
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+  }
+
+  /* 第二种居中方法 */
+  /*
+  .dec {
+  position: relative;  
+  height: 600px;
+  border: 1px solid #ccc;
+}
+
+image {
+  position: absolute;
+  top: 50%;           
+  left: 50%;          
+  transform: translate(-50%, -50%); 
+  width: 200px;
+  height: auto;
+}
+
+.tt {
+  position: absolute;
+  top: calc(50% + 60px); 
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+*/

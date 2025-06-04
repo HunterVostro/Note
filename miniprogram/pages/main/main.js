@@ -1,31 +1,30 @@
 // pages/main/main.js
 Page({
-
-    dongShao: function() {
-        this.navigateTo({
-            url:'pages/Learning/dongShao'
-        })
-    },
-
-    hunterVein: function() {
-        this.navigateTo({
-            url:'pages/Learning/hunterVein'
-        })
-    },
-
-    wangJiangjun: function() {
-        this.navigateTo({
-            url:'pages/Learning/wangJiangjun'
-        })
-    },
-
-
   /**
    * 页面的初始数据
    */
   data: {
 
   },
+
+  dongShao: function() {
+        wx.navigateTo({
+            url:'/pages/Learning/dongShao',
+        })
+    },
+
+    hunterVein: function() {
+        wx.navigateTo({
+            url:'/pages/Learning/hunterVern',
+        })
+    },
+
+    wangJiangjun: function() {
+        wx.navigateTo({
+            url:'/pages/Learning/wangJiangjun',
+        })
+    },
+
 
   /**
    * 生命周期函数--监听页面加载

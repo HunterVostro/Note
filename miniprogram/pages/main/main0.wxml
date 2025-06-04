@@ -1,0 +1,23 @@
+<!--pages/main/main0.wxml-->
+
+
+<swiper 
+  current="{{currentPage}}" 
+  bindchange="onSwiperChange" 
+  style="height: 100vh;"
+>
+  <swiper-item>
+    <view class="dec" style="background-color: {{bgColor}};"> 
+        <!-- 代码 -->
+        <image mode="widthFix" src="https://www.icegif.com/wp-content/uploads/2023/08/icegif-420.gif" ></image>
+        <text class="tt">跳 跳 舞 ！！！</text>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <!-- 目标页面（main）的内容，或直接跳转
+    <view>右滑到 main 页</view>-->
+    <!-- 或直接跳转
+    <button bindtap="navigateToMain">进入 Main 页</button>
+    <view></view>-->
+  </swiper-item> 
+</swiper>
