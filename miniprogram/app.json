@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/example/index"
+    "pages/example/index",
+    "pages/Learning/dongShao",
+    "pages/Learning/wangJiangjun",
+    "pages/Learning/hunterVern"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
