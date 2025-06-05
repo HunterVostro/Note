@@ -13,11 +13,11 @@
         <text class="tt">跳 跳 舞 ！！！</text>
     </view>
   </swiper-item>
-  <swiper-item>
+    <swiper-item>
     <!-- 目标页面（main）的内容，或直接跳转
     <view>右滑到 main 页</view>-->
     <!-- 或直接跳转
     <button bindtap="navigateToMain">进入 Main 页</button>
     <view></view>-->
-  </swiper-item> 
+    </swiper-item> 
 </swiper>
